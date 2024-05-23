@@ -118,7 +118,7 @@ def topLogin(data: list) -> None:
                     },
                     {
                         "name": "الـ AP المُتبقي",
-                        "value": f"{login.remaining_ap}",
+                        "value": f"{login.act_max}",
                         "inline": True
                     },
                     {
